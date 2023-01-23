@@ -37,7 +37,7 @@ else Console.WriteLine($"Третья цифра числа {num} - {GetThirdLef
 
 // Task 3. Напишите программу, которая принимает на вход цифру, обозначающую день недели, 
 // и проверяет, является ли этот день выходным.
-
+/*
 bool IsWeekEnd(int week_day_number)
 {
     if (week_day_number < 6) return false;
@@ -54,3 +54,4 @@ else
     if (IsWeekEnd(num)) Console.WriteLine("Ура, выходной!!!");
     else Console.WriteLine("Увы, придется идти на работу.");
 }
+*/
