@@ -161,6 +161,7 @@ int foundElement = FindElement(testArray, ref row, ref column, ref prefix);
 Console.WriteLine($"Элемент на {prefix}позиции [{row}, {column}] = {foundElement}");
 
 /* Вариант 2. Без использования дополнительного метода. 
+
 int foundElement = 0;
 try
 {
@@ -171,5 +172,4 @@ catch (IndexOutOfRangeException)
 {
     Console.WriteLine($"Элемента с индексом [{row}, {column}] нет.");
 }    
-Console.WriteLine($"Элемент на позиции [{row}, {column}] = {foundElement}");
 */
