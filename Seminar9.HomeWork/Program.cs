@@ -45,7 +45,6 @@ else Console.WriteLine("В области отрицательных чисел 
 int SumNaturalNumbersBetweenMandN(int m, int n)
 {
     if (m < n) return m + SumNaturalNumbersBetweenMandN(m+1, n);
-    else if (m > n) return n + SumNaturalNumbersBetweenMandN(m, n+1);
     else return m;
 }
 
